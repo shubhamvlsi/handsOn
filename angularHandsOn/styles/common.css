@@ -1,0 +1,176 @@
+
+.button-box {
+
+    display: inline-block;
+    margin-right: 0;
+}
+
+.btn {
+    width: 240px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.divider {
+    border-top: 1px solid #BEBEBE;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.divider-solid {
+    border-top: 2px solid #BEBEBE;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.m-t-xl {
+    margin-top: 35px;
+}
+
+.m-t-xxl {
+    margin-top: 50px;
+}
+
+.m-t-lg {
+    margin-top: 25px;
+}
+
+.m-t-md {
+    margin-top: 10px;
+}
+
+.m-t-sm {
+    margin-top: 15px;
+}
+
+.m-t-xs {
+    margin-top: 5px;
+}
+
+/* margin right */
+
+.m-r-xxl {
+    margin-right: 50px;
+}
+
+.m-r-xl {
+    margin-top: 35px;
+}
+
+
+.m-r-lg {
+    margin-right: 25px;
+}
+
+.m-r-md {
+    margin-right: 15px;
+}
+
+.m-r-sm {
+   margin-right: 10px;
+}
+
+.m-r-xs {
+   margin-right: 5px;
+}
+
+/* margin left */
+
+.m-l-xxl {
+    margin-left: 50px;
+}
+
+.m-l-xl {
+    margin-left: 35px;
+}
+
+.m-l-lg{
+    margin-left: 25px;
+}
+
+.m-l-md {
+    margin-left: 15px;
+}
+
+.m-l-sm {
+    margin-left: 10px;
+}
+
+.m-l-xs {
+    margin-left: 5px;
+}
+
+.btn-primary {
+    background-color: dodgerblue;
+    border: 0 none;
+}
+
+.button-spacing {
+    text-align: center;
+    padding: 0;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.tertiaty-buttons.task {
+    height: 100px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.button-box {
+    border: 0;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.tab {
+    display: table;
+    content: " ";
+}
+
+.body-color {
+    background-color: lightblue;
+}
+
+.slider {
+	width: 800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background: #e6e6e6;
+    border: 20px solid #FFF;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 1002;
+    display: block;
+    top: 50%;
+    margin-top: -35px;
+    width: 36px;
+    height: 71px;
+    outline: none;
+    cursor: pointer;
+    background: url(../assets/img/blank.gif) no-repeat;
+}
+
+.prev {
+    opacity: 0.2;
+    left: 20px;
+    background-image: url(../assets/img/paddle_prev_999.png);
+    transition: 0.2s linear all;
+}
+
+.navbar-back {
+    background-color: black;
+    border-color: #e7e7e7;
+}
